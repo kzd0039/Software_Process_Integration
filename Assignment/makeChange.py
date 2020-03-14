@@ -27,7 +27,8 @@ def makeChange(amount = None):
     #If amount is no less than 5(thousands places is no less than 5), add one penny, else do nothing
     if amount >= 5:
         result[-1] += 1
-
+    else:
+        pass
     return result
    
     
